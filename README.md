@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase projects: attempting to access the database before it's fully initialized. The `bug.js` file showcases the problematic code, resulting in an error.  The `bugSolution.js` file provides the corrected version using asynchronous operations (Promises or async/await) to ensure the database is ready before data access.
